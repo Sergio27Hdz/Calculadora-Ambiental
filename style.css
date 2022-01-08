@@ -1,0 +1,191 @@
+
+
+
+body {
+    background-color: transparent;
+    background-image: url("imagenes/background.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#navbarPrincipal{
+  position:fixed;
+}
+.navbar{
+  background-color: #00A878;
+}
+
+/*ESTILOS DEL CARRUSEL*/
+.carousel-item img{
+  width: auto !important;
+  height: 100%;
+}
+.w-100 {
+  width: auto !important; 
+  min-height: 45vh;
+}
+
+
+
+/*ESTILOS CONTENEDOR OSCAR*/
+.padrote{
+  background-color: black;
+}
+
+.oscar{
+  margin-top: 10vh;
+  padding: 5vh;
+  background-color: #00A878;
+  border-color: white;
+   border-width: 1px;
+   border-style: solid;
+   text-shadow: 2px 2px 2px black;
+
+}
+
+.mija-cajita{
+  padding: 5vw;
+  background-color: #27896B;
+  border-color: white;
+   border-width: 1px;
+   border-style: solid;
+}
+p{
+  font-family: Quire Sans;
+  color: white;
+  text-align: center;
+}
+/*h3{
+  font-family: Agency FB;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}*/
+
+/* ESTILO DE BOTONES DE CALCULAR */
+.number-input input[type="number"] {
+-webkit-appearance: textfield;
+-moz-appearance: textfield;
+appearance: textfield;
+}
+
+.number-input input[type=number]::-webkit-inner-spin-button,
+.number-input input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+}
+
+.number-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  float: left;
+}
+
+.number-input button {
+-webkit-appearance: none;
+background-color: transparent;
+border: none;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+margin: 0;
+position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+display: inline-block;
+position: absolute;
+content: '';
+height: 2px;
+transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+text-align: center;
+}
+
+.number-input.number-input {
+border: 1px solid #ced4da;
+width: 10rem;
+border-radius: .25rem;
+}
+
+.number-input.number-input button {
+width: 2.6rem;
+height: .7rem;
+}
+
+.number-input.number-input button.minus {
+padding-left: 10px;
+}
+
+.number-input.number-input button:before,
+.number-input.number-input button:after {
+width: .7rem;
+background-color: #495057;
+}
+
+.number-input.number-input input[type=number] {
+max-width: 4rem;
+padding: .5rem;
+border: 1px solid #ced4da;
+border-width: 0 1px;
+font-size: 1rem;
+height: 2rem;
+color: #495057;
+}
+
+@media not all and (min-resolution:.001dpcm) {
+@supports (-webkit-appearance: none) and (stroke-color:transparent) {
+
+.number-input.def-number-input.safari_only button:before,
+.number-input.def-number-input.safari_only button:after {
+
+margin-top: -.3rem;
+}
+}
+}
+.contenedor{
+  background-color: #00A878;
+  padding: 1em; 
+  overflow: hidden;
+   text-align: center;
+}
+
+.item_general{ 
+  margin: 1em;
+  padding: 1em;
+  color: white;
+}
+
+
+
+.Aluminio, .Vidrio, .Fierro{
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.PET, .Carton, .Papel{
+  margin-top: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.btn{
+  background-color: #1CBF43;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+
+}
+
+.btn:hover{
+   background-color: #1CBF43;
+}
